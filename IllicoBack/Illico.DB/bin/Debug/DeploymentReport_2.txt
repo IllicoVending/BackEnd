@@ -1,0 +1,25 @@
+﻿** Met en surbrillance
+     Tables qui seront recréées avec les données migrées
+       Aucun
+     Index ordonnés en clusters à supprimer
+       Aucun
+     Index ordonnés en clusters à créer.
+       Aucun
+     Problèmes de données possibles
+       Aucun
+
+** Actions de l'utilisateur
+     Créer
+       [dbo].[Category] (Table)
+       [dbo].[Product] (Table)
+       [dbo].[Role] (Table)
+       [dbo].[Stock] (Table)
+       [dbo].[User] (Table)
+       [dbo].[Warehouse] (Table)
+       Contrainte par défaut: contrainte sans nom sur [dbo].[Warehouse] (Contrainte par défaut)
+       Clé étrangère: contrainte sans nom sur [dbo].[Product] (Clé étrangère)
+       Clé étrangère: contrainte sans nom sur [dbo].[Stock] (Clé étrangère)
+       Clé étrangère: contrainte sans nom sur [dbo].[User] (Clé étrangère)
+       Clé étrangère: contrainte sans nom sur [dbo].[Warehouse] (Clé étrangère)
+
+** Actions de support

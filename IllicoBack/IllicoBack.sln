@@ -5,6 +5,8 @@ VisualStudioVersion = 17.7.34024.191
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Illico.WEBAPI", "Illico.WEBAPI\Illico.WEBAPI.csproj", "{1F2AE5F0-35B7-4BC3-92D6-4C303D4F0B8A}"
 EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Illico.DB", "Illico.DB\Illico.DB.sqlproj", "{FE475C32-AE09-4DB8-9AA4-2590623BC20A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,12 @@ Global
 		{1F2AE5F0-35B7-4BC3-92D6-4C303D4F0B8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1F2AE5F0-35B7-4BC3-92D6-4C303D4F0B8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1F2AE5F0-35B7-4BC3-92D6-4C303D4F0B8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE475C32-AE09-4DB8-9AA4-2590623BC20A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE475C32-AE09-4DB8-9AA4-2590623BC20A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE475C32-AE09-4DB8-9AA4-2590623BC20A}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{FE475C32-AE09-4DB8-9AA4-2590623BC20A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE475C32-AE09-4DB8-9AA4-2590623BC20A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE475C32-AE09-4DB8-9AA4-2590623BC20A}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,5 @@
+﻿CREATE TABLE [dbo].[Stock]
+(
+	[Id] INT NOT NULL PRIMARY KEY,
+	[ProductId] INT FOREIGN KEY REFERENCES [Product]([Id]) NOT NULL
+)
