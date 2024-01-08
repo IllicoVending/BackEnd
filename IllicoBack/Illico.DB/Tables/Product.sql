@@ -1,9 +1,8 @@
 ﻿CREATE TABLE [dbo].[Product]
 (
-	[Id] INT NOT NULL PRIMARY KEY IDENTITY(0,1),
+	[ProductId] INT NOT NULL PRIMARY KEY IDENTITY(0,1),
 	[Name] NVARCHAR(100) NOT NULL,
 	[Price] DECIMAL(10,2) NOT NULL,
-	[Quantity] INT NOT NULL,
 	[Image] VARBINARY(MAX) NULL,
-	[CategoryId] INT FOREIGN KEY REFERENCES [Category]([Id]) NOT NULL,
+	[CategoryId] INT FOREIGN KEY REFERENCES [Category]([CategoryId]) NOT NULL
 )

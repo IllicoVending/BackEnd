@@ -9,6 +9,8 @@ Modèle de script de post-déploiement
                SELECT * FROM [$(TableName)]					
 --------------------------------------------------------------------------------------
 */
+
+
 INSERT INTO [dbo].[Role] ([Name]) VALUES ('Admin'),('User');
 
 DECLARE @AdminId INT, @UserId INT;
@@ -27,11 +29,11 @@ INSERT INTO [dbo].[Category] ([Name]) VALUES ('Food'),('Drink');
 
 DECLARE @FoodId INT ,@DrinkId INT;
 
-SELECT @FoodId = [Id] FROM [dbo].[Category] WHERE [Name] = 'Food';
-SELECT @DrinkId = [Id] FROM [dbo].[Category] WHERE [Name] = 'Drink';
+SELECT @FoodId = [Id] FROM [dbo].[Product] WHERE [CategoryName] = 'Food';
+SELECT @DrinkId = [Id] FROM [dbo].[Product] WHERE [CategoryName] = 'Drink';
 
-INSERT INTO [dbo].[Product] ([Name],[Price],[Quantity],[CategoryId])
+INSERT INTO [dbo].[Product] ([Name],[Price],[CategoryId])
 VALUES
-('Chaudfontaine',1.50,75,@DrinkId),
-('GaufreSucre',1.00,25,@FoodId);
+('Chaudfontaine',1.50,@DrinkId),
+('GaufreSucre',1.00,@FoodId);
 

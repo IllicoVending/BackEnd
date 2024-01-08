@@ -1,0 +1,8 @@
+﻿CREATE TABLE [dbo].[OrderDetail]
+(
+	[OrderDetail] UNIQUEIDENTIFIER NOT NULL PRIMARY KEY DEFAULT NEWID(),
+	[Quantity] INT NOT NULL,
+	[DetailPrice] DECIMAL(10,2) NOT NULL,
+	[OrderId] INT FOREIGN KEY REFERENCES [Order]([OrderId]) NOT NULL,
+	[ProductId] INT FOREIGN KEY REFERENCES [Product]([ProductId]) NOT NULL
+)
