@@ -10,31 +10,88 @@ Modèle de script de post-déploiement
 --------------------------------------------------------------------------------------
 */
 
+/* init Rôles user*/
 
-INSERT INTO [dbo].[Role] ([Name]) VALUES ('Admin'),('User');
+INSERT INTO [dbo].[Role] ([Name]) VALUES ('admin'),('livreur');
 
-DECLARE @AdminId INT, @UserId INT;
+DECLARE @AdminId INT, @LivreurId INT;
 
-SELECT @AdminId = [Id] FROM [dbo].[Role] WHERE [Name] = 'Admin';
-SELECT @UserId = [Id] FROM [dbo].[Role] WHERE [Name] = 'User';
+SELECT @AdminId = [RoleId] FROM [dbo].[Role] WHERE [Name] = 'admin';
+SELECT @LivreurId = [RoleId] FROM [dbo].[Role] WHERE [Name] = 'livreur';
 
-INSERT INTO [dbo].[User] ([Name],[Email],[Password],[RoleId])
+/*init person*/
+
+INSERT INTO [dbo].[Person] ([Name],[Email],[PhoneNumber],[Password])
 VALUES
-('Yvan','YvanDesFrites@example.com','Yvan123',@AdminId),
-('Remi','DosRemi@example.com','Remi123',@UserId),
-('Toto','Toto@exemple.com','Toto123',@UserId),
-('Harry','Harry@exemple.com','Harry123',@UserId);
+('Mimi','mimi@example.com','','Mimi123'),
+('Manu','Manu@example.com','','Manu123'),
+('Remi','Remi@example.com','','Remi123'),
+('Toto','Toto@example.com','0412345678','Toto123'),
+('Harry','Harry@example.com','0498765432','Harry123');
 
+
+/*init user*/
+DECLARE @UserId1 UNIQUEIDENTIFIER,@UserId2 UNIQUEIDENTIFIER,@UserId3 UNIQUEIDENTIFIER;
+
+SELECT @UserId1 = [PersonId] FROM [dbo].[Person] WHERE [Name] = 'Mimi';
+SELECT @UserId2 = [PersonId] FROM [dbo].[Person] WHERE [Name] = 'Manu';
+SELECT @UserId3 = [PersonId] FROM [dbo].[Person] WHERE [Name] = 'Remi';
+
+INSERT INTO [dbo].[User] ([RoleId],[PersonId])
+VALUES
+(@AdminId,@UserId1),
+(@LivreurId,@UserId2),
+(@LivreurId,@UserId3);
+
+/*init client*/
+DECLARE @ClientId1 UNIQUEIDENTIFIER,@ClientId2 UNIQUEIDENTIFIER;
+
+SELECT @ClientId1 = [PersonId] FROM [dbo].[Person] WHERE [Name] = 'Toto';
+SELECT @ClientId2 = [PersonId] FROM [dbo].[Person] WHERE [Name] = 'Harry';
+
+INSERT INTO [dbo].[Client] ([Address],[PersonId])
+VALUES
+('rue de la faille 12',@ClientId1),
+('rue colette 6',@ClientId2);
+
+/*init categories*/
 INSERT INTO [dbo].[Category] ([Name]) VALUES ('Food'),('Drink');
 
 DECLARE @FoodId INT ,@DrinkId INT;
 
-SELECT @FoodId = [Id] FROM [dbo].[Product] WHERE [CategoryName] = 'Food';
-SELECT @DrinkId = [Id] FROM [dbo].[Product] WHERE [CategoryName] = 'Drink';
+SELECT @FoodId = [CategoryId] FROM [dbo].[Category] WHERE [Name] = 'Food';
+SELECT @DrinkId = [CategoryId] FROM [dbo].[Category] WHERE [Name] = 'Drink';
 
+/*init produits*/
 INSERT INTO [dbo].[Product] ([Name],[Price],[CategoryId])
 VALUES
 ('Chaudfontaine',1.50,@DrinkId),
+('Coca-Cola', 1.80,@DrinkId),
+('Donut',1.20,@FoodId),
 ('GaufreSucre',1.00,@FoodId);
+
+/*init entrepôt*/
+INSERT INTO [dbo].[Warehouse] ([Name],[Address])
+VALUES
+('SodaBel','rue rouffa 2, 4000 Liège')
+
+/*init stock*/
+INSERT INTO [dbo].[Stock] ([Quantity],[ProductId],[WarehouseId])
+VALUES
+(25,0,0),
+(50,1,0),
+(30,2,0),
+(40,3,0);
+
+/*init order*/
+INSERT INTO [dbo].[Order] ([TotalPrice],[UserId],[ClientId])
+VALUES
+(15,0,0);
+
+/*init orderdetail*/
+INSERT INTO [dbo].[OrderDetail] ([Quantity],[DetailPrice],[OrderId],[ProductId])
+VALUES
+(10,15,0,0),
+(5,5,0,3);
 
 GO

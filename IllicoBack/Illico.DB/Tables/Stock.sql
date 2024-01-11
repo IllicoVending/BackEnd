@@ -4,6 +4,8 @@
 
 	[Quantity] INT NOT NULL,
 
-	[ProductId] INT FOREIGN KEY REFERENCES [Product]([ProductId]) NOT NULL
+	[ProductId] INT FOREIGN KEY REFERENCES [Product]([ProductId]) NOT NULL,
+
+	[WarehouseId] INT FOREIGN KEY REFERENCES [Warehouse]([WarehouseId]) NOT NULL
 	
 )
