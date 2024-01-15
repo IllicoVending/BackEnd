@@ -146,6 +146,19 @@
             "rid": "win"
           }
         }
+      },
+      "Illico.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "System.Data.SqlClient": "4.8.6"
+        },
+        "compile": {
+          "bin/placeholder/Illico.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Illico.Domain.dll": {}
+        }
       }
     }
   },
@@ -462,10 +475,16 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "Illico.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Illico.Domain/Illico.Domain.csproj",
+      "msbuildProject": "../Illico.Domain/Illico.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "Illico.Domain >= 1.0.0",
       "System.Data.SqlClient >= 4.8.6"
     ]
   },
@@ -500,7 +519,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Student\\Desktop\\MakerHub\\BackEnd\\IllicoBack\\Illico.Domain\\Illico.Domain.csproj": {
+              "projectPath": "C:\\Users\\Student\\Desktop\\MakerHub\\BackEnd\\IllicoBack\\Illico.Domain\\Illico.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

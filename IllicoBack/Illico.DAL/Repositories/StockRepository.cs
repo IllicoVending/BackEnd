@@ -4,12 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Illico.Domain
+namespace Illico.DAL.Repositories
 {
-    public class User
+    internal class StockRepository
     {
-        public int Id { get; set; }
-
-        pu
     }
 }

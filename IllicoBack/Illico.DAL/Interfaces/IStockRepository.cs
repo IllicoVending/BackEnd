@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Illico.Domain
+namespace Illico.DAL.Interfaces
 {
-    internal class Client
+    internal interface IStockRepository
     {
     }
 }

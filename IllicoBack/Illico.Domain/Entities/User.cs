@@ -6,10 +6,12 @@ using System.Threading.Tasks;
 
 namespace Illico.Domain
 {
-    public class Role
+    public class User
     {
         public int Id { get; set; }
+        public int RoleId { get; set; }
+        public Guid PersonId { get; set; }
 
-        public string Name { get; set; }
+
     }
 }
