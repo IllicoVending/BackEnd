@@ -29,7 +29,7 @@ namespace Illico.DAL.Repositories
             List<Person> persons = new List<Person>();
             connection.Open();
 
-            using (SqlCommand cmd = new SqlCommand("SELECT * FROM USER", connection))
+            using (SqlCommand cmd = new SqlCommand("SELECT * FROM Person", connection))
             //execute une commande sql et permet d'obtenir un objet sqlDataReader en en appelant la méthode ExecuteReader() sur l'objet sqlCommand 
             {
                 using (SqlDataReader reader = cmd.ExecuteReader())

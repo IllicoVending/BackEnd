@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Illico.BLL.Interfaces
 {
-    internal interface IPersonService
+    public interface IPersonService
     {
     }
 }
