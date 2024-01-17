@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Illico.DAL.Interfaces
 {
-    internal interface IOrderRepository
+    public interface IOrderRepository
     {
     }
 }

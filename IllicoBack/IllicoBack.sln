@@ -7,11 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Illico.WEBAPI", "Illico.WEB
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Illico.DB", "Illico.DB\Illico.DB.sqlproj", "{FE475C32-AE09-4DB8-9AA4-2590623BC20A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Illico.DAL", "Illico.DAL\Illico.DAL.csproj", "{F2E1AF7C-5D7F-4EC8-82D3-7F134D8B3893}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Illico.DAL", "Illico.DAL\Illico.DAL.csproj", "{F2E1AF7C-5D7F-4EC8-82D3-7F134D8B3893}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Illico.BLL", "Illico.BLL\Illico.BLL.csproj", "{15F991EB-34CC-419F-B648-D50EE1BC3C0C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Illico.BLL", "Illico.BLL\Illico.BLL.csproj", "{15F991EB-34CC-419F-B648-D50EE1BC3C0C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Illico.Domain", "Illico.Domain\Illico.Domain.csproj", "{EA5B82E9-7F6F-4E51-8C0D-A0B7EB3C6F13}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Illico.Domain", "Illico.Domain\Illico.Domain.csproj", "{EA5B82E9-7F6F-4E51-8C0D-A0B7EB3C6F13}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

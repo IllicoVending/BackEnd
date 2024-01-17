@@ -1,4 +1,4 @@
-﻿namespace Illico.Domain
+﻿namespace Illico.Domain.Entities
 {
     public class Person
     {

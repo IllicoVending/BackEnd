@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Illico.DAL.Interfaces
 {
-    internal interface IUserRepository
+    public interface IUserRepository
     {
+
     }
 }

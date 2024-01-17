@@ -4,10 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Illico.DAL.Interfaces
+namespace Illico.BLL.Interfaces
 {
-    public interface IPersonRepository
+    internal interface IPersonService
     {
-
     }
 }

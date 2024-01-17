@@ -4,9 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Illico.Domain
+namespace Illico.Domain.Entities
 {
-    internal class Warehouse
+    public class Warehouse
     {
+        public int WarehouseId { get; set; }
+        public string? Name { get; set; }
+        public string? Address { get; set; }
     }
 }
