@@ -1,0 +1,12 @@
+C:\Users\Student\Desktop\MakerHub\BackEnd\IllicoBack\Illico.Domain\bin\Debug\net6.0\Illico.Domain.deps.json
+C:\Users\Student\Desktop\MakerHub\BackEnd\IllicoBack\Illico.Domain\bin\Debug\net6.0\Illico.Domain.dll
+C:\Users\Student\Desktop\MakerHub\BackEnd\IllicoBack\Illico.Domain\bin\Debug\net6.0\Illico.Domain.pdb
+C:\Users\Student\Desktop\MakerHub\BackEnd\IllicoBack\Illico.Domain\obj\Debug\net6.0\Illico.Domain.csproj.AssemblyReference.cache
+C:\Users\Student\Desktop\MakerHub\BackEnd\IllicoBack\Illico.Domain\obj\Debug\net6.0\Illico.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Student\Desktop\MakerHub\BackEnd\IllicoBack\Illico.Domain\obj\Debug\net6.0\Illico.Domain.AssemblyInfoInputs.cache
+C:\Users\Student\Desktop\MakerHub\BackEnd\IllicoBack\Illico.Domain\obj\Debug\net6.0\Illico.Domain.AssemblyInfo.cs
+C:\Users\Student\Desktop\MakerHub\BackEnd\IllicoBack\Illico.Domain\obj\Debug\net6.0\Illico.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Student\Desktop\MakerHub\BackEnd\IllicoBack\Illico.Domain\obj\Debug\net6.0\Illico.Domain.dll
+C:\Users\Student\Desktop\MakerHub\BackEnd\IllicoBack\Illico.Domain\obj\Debug\net6.0\refint\Illico.Domain.dll
+C:\Users\Student\Desktop\MakerHub\BackEnd\IllicoBack\Illico.Domain\obj\Debug\net6.0\Illico.Domain.pdb
+C:\Users\Student\Desktop\MakerHub\BackEnd\IllicoBack\Illico.Domain\obj\Debug\net6.0\ref\Illico.Domain.dll

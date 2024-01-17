@@ -240,6 +240,47 @@
             "rid": "win"
           }
         }
+      },
+      "Illico.BLL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Illico.DAL": "1.0.0",
+          "System.Data.SqlClient": "4.8.6"
+        },
+        "compile": {
+          "bin/placeholder/Illico.BLL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Illico.BLL.dll": {}
+        }
+      },
+      "Illico.DAL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Illico.Domain": "1.0.0",
+          "System.Data.SqlClient": "4.8.6"
+        },
+        "compile": {
+          "bin/placeholder/Illico.DAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Illico.DAL.dll": {}
+        }
+      },
+      "Illico.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "System.Data.SqlClient": "4.8.6"
+        },
+        "compile": {
+          "bin/placeholder/Illico.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Illico.Domain.dll": {}
+        }
       }
     }
   },
@@ -975,10 +1016,26 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "Illico.BLL/1.0.0": {
+      "type": "project",
+      "path": "../Illico.BLL/Illico.BLL.csproj",
+      "msbuildProject": "../Illico.BLL/Illico.BLL.csproj"
+    },
+    "Illico.DAL/1.0.0": {
+      "type": "project",
+      "path": "../Illico.DAL/Illico.DAL.csproj",
+      "msbuildProject": "../Illico.DAL/Illico.DAL.csproj"
+    },
+    "Illico.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Illico.Domain/Illico.Domain.csproj",
+      "msbuildProject": "../Illico.Domain/Illico.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "Illico.BLL >= 1.0.0",
       "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.19.4",
       "Swashbuckle.AspNetCore >= 6.5.0",
       "System.Data.SqlClient >= 4.8.6"
@@ -1015,7 +1072,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Student\\Desktop\\MakerHub\\BackEnd\\IllicoBack\\Illico.BLL\\Illico.BLL.csproj": {
+              "projectPath": "C:\\Users\\Student\\Desktop\\MakerHub\\BackEnd\\IllicoBack\\Illico.BLL\\Illico.BLL.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

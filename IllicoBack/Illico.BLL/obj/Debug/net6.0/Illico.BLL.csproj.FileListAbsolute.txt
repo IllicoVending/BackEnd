@@ -1,0 +1,17 @@
+C:\Users\Student\Desktop\MakerHub\BackEnd\IllicoBack\Illico.BLL\bin\Debug\net6.0\Illico.BLL.deps.json
+C:\Users\Student\Desktop\MakerHub\BackEnd\IllicoBack\Illico.BLL\bin\Debug\net6.0\Illico.BLL.dll
+C:\Users\Student\Desktop\MakerHub\BackEnd\IllicoBack\Illico.BLL\bin\Debug\net6.0\Illico.BLL.pdb
+C:\Users\Student\Desktop\MakerHub\BackEnd\IllicoBack\Illico.BLL\bin\Debug\net6.0\Illico.DAL.dll
+C:\Users\Student\Desktop\MakerHub\BackEnd\IllicoBack\Illico.BLL\bin\Debug\net6.0\Illico.Domain.dll
+C:\Users\Student\Desktop\MakerHub\BackEnd\IllicoBack\Illico.BLL\bin\Debug\net6.0\Illico.DAL.pdb
+C:\Users\Student\Desktop\MakerHub\BackEnd\IllicoBack\Illico.BLL\bin\Debug\net6.0\Illico.Domain.pdb
+C:\Users\Student\Desktop\MakerHub\BackEnd\IllicoBack\Illico.BLL\obj\Debug\net6.0\Illico.BLL.csproj.AssemblyReference.cache
+C:\Users\Student\Desktop\MakerHub\BackEnd\IllicoBack\Illico.BLL\obj\Debug\net6.0\Illico.BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Student\Desktop\MakerHub\BackEnd\IllicoBack\Illico.BLL\obj\Debug\net6.0\Illico.BLL.AssemblyInfoInputs.cache
+C:\Users\Student\Desktop\MakerHub\BackEnd\IllicoBack\Illico.BLL\obj\Debug\net6.0\Illico.BLL.AssemblyInfo.cs
+C:\Users\Student\Desktop\MakerHub\BackEnd\IllicoBack\Illico.BLL\obj\Debug\net6.0\Illico.BLL.csproj.CoreCompileInputs.cache
+C:\Users\Student\Desktop\MakerHub\BackEnd\IllicoBack\Illico.BLL\obj\Debug\net6.0\Illico.BLL.csproj.CopyComplete
+C:\Users\Student\Desktop\MakerHub\BackEnd\IllicoBack\Illico.BLL\obj\Debug\net6.0\Illico.BLL.dll
+C:\Users\Student\Desktop\MakerHub\BackEnd\IllicoBack\Illico.BLL\obj\Debug\net6.0\refint\Illico.BLL.dll
+C:\Users\Student\Desktop\MakerHub\BackEnd\IllicoBack\Illico.BLL\obj\Debug\net6.0\Illico.BLL.pdb
+C:\Users\Student\Desktop\MakerHub\BackEnd\IllicoBack\Illico.BLL\obj\Debug\net6.0\ref\Illico.BLL.dll

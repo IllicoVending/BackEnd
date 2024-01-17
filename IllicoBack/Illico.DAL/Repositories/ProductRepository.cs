@@ -30,7 +30,7 @@ namespace Illico.DAL.Repositories
             List<Product> products = new List<Product>();
             connection.Open();
 
-            using (SqlCommand cmd = new SqlCommand("SELECT * FROM Product", connection))
+            using (SqlCommand cmd = new SqlCommand("SELECT * FROM [Product]", connection))
             {
                 using (SqlDataReader reader = cmd.ExecuteReader())
                 {
@@ -40,8 +40,7 @@ namespace Illico.DAL.Repositories
                         {
                             Id = (int)reader["ProductId"],
                             Name = (string)reader["Name"],
-                            Price = (double)reader["Price"],
-                            Image = (string)reader["Image"],
+                            Price = (decimal)reader["Price"],
                             CategoryId = (int)reader["CategoryId"]
                         };
                         products.Add(product);

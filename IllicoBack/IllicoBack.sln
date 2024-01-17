@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Illico.BLL", "Illico.BLL\Il
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Illico.Domain", "Illico.Domain\Illico.Domain.csproj", "{EA5B82E9-7F6F-4E51-8C0D-A0B7EB3C6F13}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Illico.DAL.Console", "Illico.DAL.Console\Illico.DAL.Console.csproj", "{E0D61644-D9DE-45F0-9017-78B79CF85E67}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,6 +43,10 @@ Global
 		{EA5B82E9-7F6F-4E51-8C0D-A0B7EB3C6F13}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EA5B82E9-7F6F-4E51-8C0D-A0B7EB3C6F13}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EA5B82E9-7F6F-4E51-8C0D-A0B7EB3C6F13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0D61644-D9DE-45F0-9017-78B79CF85E67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0D61644-D9DE-45F0-9017-78B79CF85E67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0D61644-D9DE-45F0-9017-78B79CF85E67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0D61644-D9DE-45F0-9017-78B79CF85E67}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,15 @@
+C:\Users\Student\Desktop\MakerHub\BackEnd\IllicoBack\Illico.DAL\bin\Debug\net6.0\Illico.DAL.deps.json
+C:\Users\Student\Desktop\MakerHub\BackEnd\IllicoBack\Illico.DAL\bin\Debug\net6.0\Illico.DAL.dll
+C:\Users\Student\Desktop\MakerHub\BackEnd\IllicoBack\Illico.DAL\bin\Debug\net6.0\Illico.DAL.pdb
+C:\Users\Student\Desktop\MakerHub\BackEnd\IllicoBack\Illico.DAL\bin\Debug\net6.0\Illico.Domain.dll
+C:\Users\Student\Desktop\MakerHub\BackEnd\IllicoBack\Illico.DAL\bin\Debug\net6.0\Illico.Domain.pdb
+C:\Users\Student\Desktop\MakerHub\BackEnd\IllicoBack\Illico.DAL\obj\Debug\net6.0\Illico.DAL.csproj.AssemblyReference.cache
+C:\Users\Student\Desktop\MakerHub\BackEnd\IllicoBack\Illico.DAL\obj\Debug\net6.0\Illico.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Student\Desktop\MakerHub\BackEnd\IllicoBack\Illico.DAL\obj\Debug\net6.0\Illico.DAL.AssemblyInfoInputs.cache
+C:\Users\Student\Desktop\MakerHub\BackEnd\IllicoBack\Illico.DAL\obj\Debug\net6.0\Illico.DAL.AssemblyInfo.cs
+C:\Users\Student\Desktop\MakerHub\BackEnd\IllicoBack\Illico.DAL\obj\Debug\net6.0\Illico.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Student\Desktop\MakerHub\BackEnd\IllicoBack\Illico.DAL\obj\Debug\net6.0\Illico.DAL.csproj.CopyComplete
+C:\Users\Student\Desktop\MakerHub\BackEnd\IllicoBack\Illico.DAL\obj\Debug\net6.0\Illico.DAL.dll
+C:\Users\Student\Desktop\MakerHub\BackEnd\IllicoBack\Illico.DAL\obj\Debug\net6.0\refint\Illico.DAL.dll
+C:\Users\Student\Desktop\MakerHub\BackEnd\IllicoBack\Illico.DAL\obj\Debug\net6.0\Illico.DAL.pdb
+C:\Users\Student\Desktop\MakerHub\BackEnd\IllicoBack\Illico.DAL\obj\Debug\net6.0\ref\Illico.DAL.dll
