@@ -42,3 +42,11 @@ C:\Users\Student\Desktop\MakerHub\BackEnd\IllicoBack\Illico.WEBAPI\bin\Debug\net
 C:\Users\Student\Desktop\MakerHub\BackEnd\IllicoBack\Illico.WEBAPI\bin\Debug\net6.0\Illico.BLL.pdb
 C:\Users\Student\Desktop\MakerHub\BackEnd\IllicoBack\Illico.WEBAPI\bin\Debug\net6.0\Illico.DAL.pdb
 C:\Users\Student\Desktop\MakerHub\BackEnd\IllicoBack\Illico.WEBAPI\bin\Debug\net6.0\Illico.Domain.pdb
+C:\Users\Student\Desktop\MakerHub\BackEnd\IllicoBack\Illico.WEBAPI\bin\Debug\net6.0\Isopoh.Cryptography.Argon2.dll
+C:\Users\Student\Desktop\MakerHub\BackEnd\IllicoBack\Illico.WEBAPI\bin\Debug\net6.0\Isopoh.Cryptography.Blake2b.dll
+C:\Users\Student\Desktop\MakerHub\BackEnd\IllicoBack\Illico.WEBAPI\bin\Debug\net6.0\Isopoh.Cryptography.SecureArray.dll
+C:\Users\Student\Desktop\MakerHub\BackEnd\IllicoBack\Illico.WEBAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Student\Desktop\MakerHub\BackEnd\IllicoBack\Illico.WEBAPI\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Student\Desktop\MakerHub\BackEnd\IllicoBack\Illico.WEBAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Student\Desktop\MakerHub\BackEnd\IllicoBack\Illico.WEBAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Student\Desktop\MakerHub\BackEnd\IllicoBack\Illico.WEBAPI\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll

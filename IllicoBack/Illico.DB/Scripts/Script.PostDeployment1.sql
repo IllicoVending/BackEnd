@@ -21,13 +21,13 @@ SELECT @LivreurId = [RoleId] FROM [dbo].[Role] WHERE [Name] = 'livreur';
 
 /*init person*/
 
-INSERT INTO [dbo].[Person] ([Name],[Email],[PhoneNumber],[Password])
+INSERT INTO [dbo].[Person] ([Name],[Email],[Phone],[Password])
 VALUES
-('Mimi','mimi@example.com','','Mimi123'),
+('Mimi','mimi@example.com','','$argon2id$v=19$m=65536,t=3,p=1$mQnhHeIie6IxTCcILAOyyQ$4OpCY0/1zfCAgNUF0YVlTqW0doX6MK4Bc4WAT3kKDFg'),
 ('Manu','Manu@example.com','','Manu123'),
 ('Remi','Remi@example.com','','Remi123'),
-('Toto','Toto@example.com','0412345678','Toto123'),
-('Harry','Harry@example.com','0498765432','Harry123');
+('Toto','Toto@example.com','0412345678','$argon2id$v=19$m=65536,t=3,p=1$Od0ZjyT31MO1O/s3rt1jVQ$ZoGdyBRu+rMIcAZJ8yazNmXvspZ0Knm60AouH6zNuvI'),
+('Harry','Harry@example.com','0498765432','$argon2id$v=19$m=65536,t=3,p=1$AX303Ps1NFtdbx9e9TNLzQ$tFEUSRkVtlVQqo+vZXAXbB8/Tt5WXNoxGWEgJSigflk');
 
 
 /*init user*/

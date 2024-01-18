@@ -15,7 +15,7 @@ namespace Illico.DAL.Repositories
         {
         }
 
-        public override int Create(Product entity)
+        public override Product Create(Product entity)
         {
             throw new NotImplementedException();
         }

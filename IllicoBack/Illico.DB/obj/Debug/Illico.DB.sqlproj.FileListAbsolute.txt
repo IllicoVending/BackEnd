@@ -4,7 +4,3 @@ C:\Users\Student\Desktop\MakerHub\BackEnd\IllicoBack\Illico.DB\bin\Debug\Illico.
 C:\Users\Student\Desktop\MakerHub\BackEnd\IllicoBack\Illico.DB\obj\Debug\Illico.DB.sqlproj.AssemblyReference.cache
 C:\Users\Student\Desktop\MakerHub\BackEnd\IllicoBack\Illico.DB\obj\Debug\Illico.DB.dll
 C:\Users\Student\Desktop\MakerHub\BackEnd\IllicoBack\Illico.DB\obj\Debug\Illico.DB.pdb
-C:\Users\Student\Desktop\MakerHub\BackEnd\IllicoBack\Illico.DB\obj\Debug\Model.xml
-C:\Users\Student\Desktop\MakerHub\BackEnd\IllicoBack\Illico.DB\obj\Debug\refactor.xml
-C:\Users\Student\Desktop\MakerHub\BackEnd\IllicoBack\Illico.DB\obj\Debug\postdeploy.sql
-C:\Users\Student\Desktop\MakerHub\BackEnd\IllicoBack\Illico.DB\obj\Debug\predeploy.sql

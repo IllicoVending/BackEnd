@@ -9,7 +9,7 @@ namespace Illico.DAL.Interfaces
     public interface ICrudRepository<TId, TEntity> where TEntity : class
     {
         //Plan des méthodes
-        TId Create(TEntity entity);
+        TEntity Create(TEntity entity);
         bool Update(TId id, TEntity entity);
         bool Delete(TId id);
         TEntity? GetById(TId id);

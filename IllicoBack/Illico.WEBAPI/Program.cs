@@ -4,6 +4,7 @@ using Illico.BLL.Interfaces;
 using Illico.BLL.Services;
 using Illico.DAL.Interfaces;
 using Illico.DAL.Repositories;
+using Illico.WEBAPI.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -15,24 +16,34 @@ SqlConnection connection = new SqlConnection("Server=5346\\SQLSERVER;DataBase=Il
 builder.Services.AddScoped<IProductRepository, ProductRepository>(x => new ProductRepository(connection)); // Une seule instance est créée pour toute l'API
 builder.Services.AddScoped<IProductService, ProductService>(); // Une seule instance est créée pour toute l'API
 
+builder.Services.AddScoped<IPersonRepository, PersonRepository>(x => new PersonRepository(connection)); // Une seule instance est créée pour toute l'API
+builder.Services.AddScoped<IPersonService, PersonService>(); // Une seule instance est créée pour toute l'API
+
+builder.Services.AddScoped<TokenService>();
+
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddCors(options =>
+builder.Services.AddCors(opt =>
 {
-    options.AddPolicy("MyAllowSpecificOrigins",
-    builder =>
+    opt.AddPolicy("legrosseum", config =>
     {
-        builder.WithOrigins("http://localhost:4200")
-               .AllowAnyHeader()
-               .AllowAnyMethod();
+        // Tout autoriser
+        config.AllowAnyOrigin();
+        config.AllowAnyHeader();
+        config.AllowAnyMethod();
+
+        // Limiter l'origine de la requete
+        // config.WithOrigins("http://127.0.0.1:5500");
     });
 });
 
 
+
 var app = builder.Build();
+
 
 
 // Configure the HTTP request pipeline.
@@ -44,14 +55,9 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-app.UseAuthorization();
+app.UseCors("legrosseum");
 
-app.UseCors(builder =>
-{
-    builder.AllowAnyOrigin()
-    .AllowAnyMethod()
-    .AllowAnyHeader();
-});
+app.UseAuthorization();
 
 app.MapControllers();
 

@@ -48,6 +48,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Isopoh.Cryptography.Argon2": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
             "System.Data.SqlClient": {
               "target": "Package",
               "version": "[4.8.6, )"
@@ -117,6 +121,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Isopoh.Cryptography.Argon2": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
             "System.Data.SqlClient": {
               "target": "Package",
               "version": "[4.8.6, )"
@@ -182,6 +190,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Isopoh.Cryptography.Argon2": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
             "System.Data.SqlClient": {
               "target": "Package",
               "version": "[4.8.6, )"

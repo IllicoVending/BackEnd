@@ -1,10 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "o4v8PfQdOVec3Un/96SvqR/Gq3251ccRKgA2lQTfMY/PzPh9EsmOX1Q7iFdiOTrBJD+Wm25RTCek3pQg31ukrQ==",
+  "dgSpecHash": "ln5nfqG+RQb+6u5rVO4jj4d2wg4nFRJIBaf4GRvummSkdqQeXF0bV9n2Xwkg3xIjX1L8rI0QAxZvxQu9zrrPow==",
   "success": true,
   "projectFilePath": "C:\\Users\\Student\\Desktop\\MakerHub\\BackEnd\\IllicoBack\\Illico.WEBAPI\\Illico.WEBAPI.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Student\\.nuget\\packages\\isopoh.cryptography.argon2\\2.0.0\\isopoh.cryptography.argon2.2.0.0.nupkg.sha512",
+    "C:\\Users\\Student\\.nuget\\packages\\isopoh.cryptography.blake2b\\2.0.0\\isopoh.cryptography.blake2b.2.0.0.nupkg.sha512",
+    "C:\\Users\\Student\\.nuget\\packages\\isopoh.cryptography.securearray\\2.0.0\\isopoh.cryptography.securearray.2.0.0.nupkg.sha512",
     "C:\\Users\\Student\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\Student\\.nuget\\packages\\microsoft.identitymodel.abstractions\\7.2.0\\microsoft.identitymodel.abstractions.7.2.0.nupkg.sha512",
+    "C:\\Users\\Student\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\7.2.0\\microsoft.identitymodel.jsonwebtokens.7.2.0.nupkg.sha512",
+    "C:\\Users\\Student\\.nuget\\packages\\microsoft.identitymodel.logging\\7.2.0\\microsoft.identitymodel.logging.7.2.0.nupkg.sha512",
+    "C:\\Users\\Student\\.nuget\\packages\\microsoft.identitymodel.tokens\\7.2.0\\microsoft.identitymodel.tokens.7.2.0.nupkg.sha512",
     "C:\\Users\\Student\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\Student\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\Student\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.4\\microsoft.visualstudio.azure.containers.tools.targets.1.19.4.nupkg.sha512",
@@ -18,6 +25,7 @@
     "C:\\Users\\Student\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
     "C:\\Users\\Student\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.5.0\\swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512",
     "C:\\Users\\Student\\.nuget\\packages\\system.data.sqlclient\\4.8.6\\system.data.sqlclient.4.8.6.nupkg.sha512",
+    "C:\\Users\\Student\\.nuget\\packages\\system.identitymodel.tokens.jwt\\7.2.0\\system.identitymodel.tokens.jwt.7.2.0.nupkg.sha512",
     "C:\\Users\\Student\\.nuget\\packages\\system.security.accesscontrol\\4.7.0\\system.security.accesscontrol.4.7.0.nupkg.sha512",
     "C:\\Users\\Student\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512"
   ],

@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "Qs8hDlwXXz5NrxHptmRJ78DHeLw981mdpOk48fo6ZaYksBptvNrc9YOPqRd++s9Crn+oLI/B04mZ8/s3xAbdvw==",
+  "dgSpecHash": "LDGGaq/NgGLpHowgQWgzwC/KqbNfWjtsSc1RjySJFKcBeCdgd1GujPINt+kRW0QqjJnCd7oGCmz5kOg6poFqTg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Student\\Desktop\\MakerHub\\BackEnd\\IllicoBack\\Illico.DAL\\Illico.DAL.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Student\\.nuget\\packages\\isopoh.cryptography.argon2\\2.0.0\\isopoh.cryptography.argon2.2.0.0.nupkg.sha512",
+    "C:\\Users\\Student\\.nuget\\packages\\isopoh.cryptography.blake2b\\2.0.0\\isopoh.cryptography.blake2b.2.0.0.nupkg.sha512",
+    "C:\\Users\\Student\\.nuget\\packages\\isopoh.cryptography.securearray\\2.0.0\\isopoh.cryptography.securearray.2.0.0.nupkg.sha512",
     "C:\\Users\\Student\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\Student\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\Student\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.7.0\\runtime.native.system.data.sqlclient.sni.4.7.0.nupkg.sha512",

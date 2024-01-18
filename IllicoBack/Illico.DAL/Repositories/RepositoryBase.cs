@@ -24,7 +24,7 @@ namespace Illico.DAL.Repositories
             _dbConnection = dbConnection;
         }
 
-        public abstract TId Create(TEntity entity);
+        public abstract TEntity Create(TEntity entity);
         public abstract bool Update(TId id, TEntity entity);
         public abstract bool Delete(TId id);
         public abstract TEntity? GetById(TId id);
